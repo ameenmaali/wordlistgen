@@ -18,17 +18,6 @@ https://google.com/home/?q=2&d=asd
 http://my.site
 /api/v2/auth/me?id=123
 ```
-### Help
-```
-$ wordlistgen -h
-Usage of cookiesplz:
-  -fq
-    	If enabled, filter out query strings (e.g. if enabled /?q=123 - q would NOT be included in results
-  -qv
-    	If enabled, include query string values (e.g. if enabled /?q=123 - 123 would be included in results
-```
-
-## Examples
 
 Get unique URL components from a file of URLs and/or paths:
 
@@ -41,3 +30,13 @@ Get unique URL components from a file of URLs and/or paths, including query stri
 wordlistgen works at it's best when chained with other tools, such as [@tonnomnom's](https://github.com/tomnomnom) [waybackurls](https://github.com/tomnomnom/waybackurls) :
 
 `cat hosts.txt | waybackurls | wordlistgen`
+
+### Help
+```
+$ wordlistgen -h
+Usage of cookiesplz:
+  -fq
+    	If enabled, filter out query strings (e.g. if enabled /?q=123 - q would NOT be included in results
+  -qv
+    	If enabled, include query string values (e.g. if enabled /?q=123 - 123 would be included in results
+```
