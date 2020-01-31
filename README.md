@@ -7,6 +7,7 @@ paths, query strings, etc. and spits them back to stdout so you can easily add t
 
 # Installation
 If you don't have Go installed, "go" do that!
+
 ```go get -u github.com/ameenmaali/wordlistgen```
 
 ## Usage
@@ -37,6 +38,6 @@ Get unique URL components from a file of URLs and/or paths, including query stri
 
 `cat hosts.txt | wordlistgen -qv > urlComponents.txt`
 
-wordlistgen works at it's best when chained with other tools, such as [@tonnomnom's](https://tomnomnom) [waybackurls](https://github.com/tomnomnom/waybackurls) :
+wordlistgen works at it's best when chained with other tools, such as [@tonnomnom's](https://github.com/tomnomnom) [waybackurls](https://github.com/tomnomnom/waybackurls) :
 
 `cat hosts.txt | waybackurls | wordlistgen`
