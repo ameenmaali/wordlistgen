@@ -34,7 +34,7 @@ wordlistgen works at it's best when chained with other tools, such as [@tonnomno
 ### Help
 ```
 $ wordlistgen -h
-Usage of cookiesplz:
+Usage of wordlistgen:
   -fq
     	If enabled, filter out query strings (e.g. if enabled /?q=123 - q would NOT be included in results
   -qv
