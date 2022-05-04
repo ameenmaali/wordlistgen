@@ -8,7 +8,7 @@ paths, query strings, etc. and spits them back to stdout so you can easily add t
 # Installation
 If you don't have Go installed, "go" do that!
 
-```go get -u github.com/ameenmaali/wordlistgen```
+```go install github.com/ameenmaali/wordlistgen@latest```
 
 ## Usage
 wordlistgen takes URLs and paths from stdin, of which you will most likely want in a file such as:
